@@ -1,0 +1,47 @@
+/* Universal selector - applies to ALL elements on the page */
+*{
+    /* Remove default margin from all elements for consistent spacing */
+    margin: 0;
+    
+    /* Remove default padding from all elements for consistent spacing */
+    padding: 0;
+    
+    /* Make width/height include padding and border (easier calculations) */
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;   /* 100% of viewport width */
+    height: 100%;  /* 100% of viewport height */
+}
+
+#parent{
+    width: 700px;
+    height:300px;
+    background-color:orange;
+}
+
+#child{
+    font-size: 20px;
+    /* 50% of parent container's width */
+    width: 50%;
+    height:50%;
+    background-color:rgb(255, 89, 0);
+}
+#sub-child{
+    /* 16 times the size of parent element's font-size */
+    width: 16em; 
+    height:5em;
+    background-color:rgb(255, 21, 12);
+}
+#sub-child p{
+    font-family: monospace;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size:1vw ;
+}
+
+p{
+    line-height: 3;
+    text-align: center;
+}
