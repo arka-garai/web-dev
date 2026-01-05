@@ -66,4 +66,4 @@ document.getElementById("toggleHighlight").addEventListener("click", function(){
   document.getElementById("descriptionText").classList.toggle("highlight");
 });
 
-//HTML Collection / Node List
+//HTML Collection (an array) / Node List

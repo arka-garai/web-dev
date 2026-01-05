@@ -4,11 +4,11 @@
    Store the result in a variable named `teaOrder`.
 */
 
-function makeTea(typeOfTea) {
+function makeTea1(typeOfTea) {
     return `Making ${typeOfTea}`;
 }
 
-let teaOrder = makeTea("green tea");
+let teaOrder = makeTea1("green tea");
 console.log(teaOrder);
 
 /*
@@ -40,7 +40,7 @@ console.log(`Total cost: ${totalCost}`);
 
 /*
 4. Write a function named `processTeaOrder` that takes another function, `makeTea`, as a parameter
-   and calls it with the argument "earl grey". Return the result of calling `makeTea`.
+   and calls it with the argument "Earl Grey". Return the result of calling `makeTea`.
 */
 //higher order function is a function that takes another function as an argument or returns a function as a result
 
