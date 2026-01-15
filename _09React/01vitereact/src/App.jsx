@@ -1,8 +1,13 @@
+import Chai from "./chai"
+
 
 function App() {
 
   return (
-    <h1>hello frontend | arka </h1>
+    < >
+      <Chai />
+      <h1>hello frontend | arka garai</h1>
+    </>
   )
 }
 
